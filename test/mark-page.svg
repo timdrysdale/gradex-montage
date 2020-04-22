@@ -196,11 +196,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
+     inkscape:zoom="1"
      inkscape:cx="567.09824"
      inkscape:cy="154.13703"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer9"
      showgrid="false"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
@@ -2456,7 +2456,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="textfields"
-     style="display:none">
+     style="display:inline">
     <rect
        y="169.26012"
        x="112.06299"

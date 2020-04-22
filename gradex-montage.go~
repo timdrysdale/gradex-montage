@@ -122,7 +122,6 @@ func doOneDoc(inputPath, spreadName string) (int, error) {
 	}
 	suffix := filepath.Ext(inputPath)
 	basename := strings.TrimSuffix(inputPath, suffix)
-
 	jpegFileOption := fmt.Sprintf("%s/%s%%04d.jpg", jpegPath, basename)
 
 	f, err := os.Open(inputPath)
@@ -154,45 +153,50 @@ func doOneDoc(inputPath, spreadName string) (int, error) {
 		return 0, err
 	}
 
-	//pageFileOption := fmt.Sprintf("%s/%s%%04d.pdf", pagePath, basename)
+	pageFileOption := fmt.Sprintf("%s/%s%%04d.pdf", pagePath, basename)
+
+	mergePaths := []string{}
 
 	// gs starts indexing at 1
-
-	if numPages > 3 {
-		numPages = 3
-	}
-
-	prefillImagePaths := make(map[string]string)
-
 	for imgIdx := 1; imgIdx <= numPages; imgIdx = imgIdx + 1 {
-		//previousImagePath := fmt.Sprintf(jpegFileOption, imgIdx)
-		//pageFilename := fmt.Sprintf(pageFileOption, imgIdx)
-		//pageNumber := imgIdx - 1
-		imagePath := fmt.Sprintf(jpegFileOption, imgIdx)
-		imageBasename := strings.TrimSuffix(imagePath, ".jpg")
 
-		key := fmt.Sprintf("mark-page-%d", imgIdx)
-		prefillImagePaths[key] = imageBasename
+		// construct image name
+		previousImagePath := fmt.Sprintf(jpegFileOption, imgIdx)
+		pageFilename := fmt.Sprintf(pageFileOption, imgIdx)
+
+		//TODO select Layout to suit landscape or portrait
+		svgLayoutPath := "./test/layout-312pt-static-mark-dynamic-moderate-comment-static-check.svg"
+
+		pageNumber := imgIdx - 1
+
+		contents := parsesvg.SpreadContents{
+			SvgLayoutPath:     svgLayoutPath,
+			SpreadName:        spreadName,
+			PreviousImagePath: previousImagePath,
+			PageNumber:        pageNumber,
+			PdfOutputPath:     pageFilename,
+			Comments:          comments,
+		}
+
+		err := parsesvg.RenderSpreadExtra(contents)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
+
+		//	err := parsesvg.RenderSpread(svgLayoutPath, spreadName, previousImagePath, imgIdx, pageFilename)
+		//	if err != nil {
+		//		return 0, err
+		//	}
+
+		//save the pdf filename for the merge at the end
+		mergePaths = append(mergePaths, pageFilename)
 	}
 
-	// construct image name
-	svgLayoutPath := "./test/layout-312pt-three-page-scan-check.svg"
 	outputPath := fmt.Sprintf("%s-%s.pdf", basename, spreadName)
-
-	contents := parsesvg.SpreadContents{
-		SvgLayoutPath:     svgLayoutPath,
-		SpreadName:        spreadName,
-		PreviousImagePath: "",
-		PageNumber:        0,
-		PdfOutputPath:     outputPath,
-		Comments:          comments,
-		PrefillImagePaths: prefillImagePaths,
-	}
-
-	err = parsesvg.RenderSpreadExtra(contents)
+	err = mergePdf(mergePaths, outputPath)
 	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
+		return 0, err
 	}
 
 	return numPages, nil

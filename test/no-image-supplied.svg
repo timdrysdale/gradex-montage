@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg22033"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="no-image-supplied.svg"
+   inkscape:export-filename="/home/tim/tg/gradex-montage/test/no-image-supplied.png"
+   inkscape:export-xdpi="55.703602"
+   inkscape:export-ydpi="55.703602">
+  <defs
+     id="defs22027">
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient22632"
+       gradientUnits="userSpaceOnUse"
+       x="0"
+       y="5.6843419e-14">
+      <meshrow
+         id="meshrow22634">
+        <meshpatch
+           id="meshpatch22636">
+          <stop
+             path="c 70,0  140,0  210,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop22638" />
+          <stop
+             path="c 0,99  0,198  0,297"
+             style="stop-color:#008080;stop-opacity:1"
+             id="stop22640" />
+          <stop
+             path="c -70,0  -140,0  -210,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop22642" />
+          <stop
+             path="c 0,-99  0,-198  0,-297"
+             style="stop-color:#008080;stop-opacity:1"
+             id="stop22644" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-137.14286"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1850"
+     inkscape:window-height="1136"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata22030">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.98999999;fill:url(#meshgradient22632);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
+       id="rect22620"
+       width="210"
+       height="297"
+       x="0"
+       y="5.6843419e-14" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.10277939px;line-height:1.25;font-family:comfortaa;-inkscape-font-specification:comfortaa;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="-107.32132"
+       y="170.80231"
+       id="text22580"
+       transform="rotate(-45)"
+       inkscape:transform-center-x="-8.3154762"
+       inkscape:transform-center-y="-50.64881"><tspan
+         sodipodi:role="line"
+         id="tspan22578"
+         x="-107.32132"
+         y="170.80231"
+         style="stroke-width:0.26458332;fill:#ffffff;">NO IMAGE </tspan><tspan
+         sodipodi:role="line"
+         x="-107.32132"
+         y="210.93079"
+         style="stroke-width:0.26458332;fill:#ffffff;"
+         id="tspan22582">SUPPLIED</tspan></text>
+  </g>
+</svg>

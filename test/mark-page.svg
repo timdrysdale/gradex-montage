@@ -2693,20 +2693,20 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="textprefills"
-     style="display:none">
+     style="display:inline">
     <rect
-       style="opacity:0.98999999;fill:#ff69f0;fill-opacity:1;stroke:none;stroke-width:2.19432139;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
+       style="opacity:0.98999999;fill:#ff69f0;fill-opacity:1;stroke:none;stroke-width:2.1747725;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
        id="rect23329"
-       width="126.56525"
+       width="124.32018"
        height="10.318749"
-       x="8.3583002"
+       x="10.603364"
        y="282.67142"
        rx="0"
        ry="0">
       <desc
          id="desc23333">{&quot;text&quot;:&quot;student filename goes here&quot;,&quot;textSize&quot;:20}</desc>
       <title
-         id="title23331">submission-filename</title>
+         id="title23331">filename</title>
     </rect>
   </g>
 </svg>

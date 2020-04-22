@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="269mm"
+   width="210mm"
    height="312mm"
-   viewBox="0 0 269 312"
+   viewBox="0 0 210 312"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -2238,7 +2238,7 @@
        gradientUnits="userSpaceOnUse"
        x="0"
        y="0.37499997"
-       gradientTransform="translate(0.25933838,1.9468231)">
+       gradientTransform="matrix(0.77993483,0,0,1,0.25933838,1.9468231)">
       <meshrow
          id="meshrow17793">
         <meshpatch
@@ -2698,10 +2698,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.55352036"
-     inkscape:cx="653.61327"
-     inkscape:cy="667.33342"
+     inkscape:cx="454.88526"
+     inkscape:cy="610.56702"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:window-width="1850"
      inkscape:window-height="1136"
@@ -2729,15 +2729,15 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="pages"
-     style="display:none">
+     style="display:inline">
     <rect
-       style="opacity:1;fill:url(#meshgradient17791);fill-opacity:1;stroke:none;stroke-width:0.49999997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
+       style="opacity:1;fill:url(#meshgradient17791);fill-opacity:1;stroke:none;stroke-width:0.44156957;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
        id="rect3913"
-       width="269.25327"
+       width="210"
        height="311.625"
        x="0.25933838"
        y="2.3218231"
-       rx="1.4231555"
+       rx="1.1099685"
        ry="0.61754012">
       <title
          id="title3915">page-static-mark</title>
@@ -2805,38 +2805,38 @@
          id="title3055">image-static-mark-header</title>
     </rect>
     <rect
-       ry="0.18102396"
-       rx="0.41737261"
-       y="14.970905"
-       x="-0.35310405"
-       height="87.061729"
-       width="61.625935"
+       ry="0.19721489"
+       rx="0.45470273"
+       y="27.046537"
+       x="2.1766453"
+       height="94.848595"
+       width="67.13781"
        id="rect21986"
-       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:0.47417842;stroke:#f70000;stroke-width:0.29379198;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1">
+       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:0.47417842;stroke:#f70000;stroke-width:0.32006896;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1">
       <title
          id="title21984">image-static-mark-page-1</title>
     </rect>
     <rect
-       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:0.47417842;stroke:#f70000;stroke-width:0.29379198;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
+       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:0.47417842;stroke:#f70000;stroke-width:0.32006896;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
        id="rect21990"
-       width="61.625935"
-       height="87.061729"
-       x="61.272831"
-       y="14.970909"
-       rx="0.41737261"
-       ry="0.18102396">
+       width="67.13781"
+       height="94.848595"
+       x="71.431099"
+       y="27.046541"
+       rx="0.45470273"
+       ry="0.19721489">
       <title
          id="title21988">image-static-mark-page-2</title>
     </rect>
     <rect
-       ry="0.18102396"
-       rx="0.41737261"
-       y="14.970909"
-       x="122.89877"
-       height="87.061729"
-       width="61.625935"
+       ry="0.19721489"
+       rx="0.45470273"
+       y="27.046541"
+       x="140.68555"
+       height="94.848595"
+       width="67.13781"
        id="rect21994"
-       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:0.47417842;stroke:#f70000;stroke-width:0.29379198;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1">
+       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:0.47417842;stroke:#f70000;stroke-width:0.32006896;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1">
       <title
          id="title21992">image-static-mark-page-3</title>
     </rect>
@@ -3015,28 +3015,28 @@
        style="display:inline;opacity:0.98999999;fill:#45ff20;fill-opacity:1;stroke:#f70000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
        id="path22019"
        sodipodi:type="arc"
-       sodipodi:cx="61.272831"
-       sodipodi:cy="14.970909"
+       sodipodi:cx="71.431099"
+       sodipodi:cy="27.046541"
        sodipodi:rx="4.2522321"
        sodipodi:ry="4.2522321"
        sodipodi:start="1.5935991"
        sodipodi:end="1.5918851"
        sodipodi:open="true"
-       d="m 61.175877,19.222036 a 4.2522321,4.2522321 0 0 1 -4.154214,-4.34626 4.2522321,4.2522321 0 0 1 4.344479,-4.156075 4.2522321,4.2522321 0 0 1 4.157937,4.342697 4.2522321,4.2522321 0 0 1 -4.340916,4.159798">
+       d="m 71.334145,31.297668 a 4.2522321,4.2522321 0 0 1 -4.154214,-4.346259 4.2522321,4.2522321 0 0 1 4.344479,-4.156076 4.2522321,4.2522321 0 0 1 4.157937,4.342698 4.2522321,4.2522321 0 0 1 -4.340916,4.159797">
       <desc
          id="desc22015">./test/no-image-supplied</desc>
       <title
          id="title22017">mark-page-2</title>
     </path>
     <path
-       d="m 122.80182,19.222036 a 4.2522321,4.2522321 0 0 1 -4.15421,-4.34626 4.2522321,4.2522321 0 0 1 4.34447,-4.156075 4.2522321,4.2522321 0 0 1 4.15794,4.342697 4.2522321,4.2522321 0 0 1 -4.34091,4.159798"
+       d="m 140.58859,31.297668 a 4.2522321,4.2522321 0 0 1 -4.15421,-4.346259 4.2522321,4.2522321 0 0 1 4.34448,-4.156076 4.2522321,4.2522321 0 0 1 4.15793,4.342698 4.2522321,4.2522321 0 0 1 -4.34091,4.159797"
        sodipodi:open="true"
        sodipodi:end="1.5918851"
        sodipodi:start="1.5935991"
        sodipodi:ry="4.2522321"
        sodipodi:rx="4.2522321"
-       sodipodi:cy="14.970909"
-       sodipodi:cx="122.89877"
+       sodipodi:cy="27.046541"
+       sodipodi:cx="140.68555"
        sodipodi:type="arc"
        id="path22025"
        style="display:inline;opacity:0.98999999;fill:#45ff20;fill-opacity:1;stroke:#f70000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1">
@@ -3046,21 +3046,42 @@
          id="title22023">mark-page-3</title>
     </path>
     <path
-       d="M -0.09638598,19.575866 A 4.2522321,4.2522321 0 0 1 -4.2505995,15.229607 4.2522321,4.2522321 0 0 1 0.09387934,11.073531 4.2522321,4.2522321 0 0 1 4.251816,15.416229 4.2522321,4.2522321 0 0 1 -0.08909941,19.576026"
+       d="M 2.079691,31.297664 A 4.2522321,4.2522321 0 0 1 -2.0745225,26.951405 4.2522321,4.2522321 0 0 1 2.2699563,22.795329 4.2522321,4.2522321 0 0 1 6.427893,27.138027 4.2522321,4.2522321 0 0 1 2.0869776,31.297824"
        sodipodi:open="true"
        sodipodi:end="1.5918851"
        sodipodi:start="1.5935991"
        sodipodi:ry="4.2522321"
        sodipodi:rx="4.2522321"
-       sodipodi:cy="15.324739"
-       sodipodi:cx="0.00056830473"
+       sodipodi:cy="27.046537"
+       sodipodi:cx="2.1766453"
        sodipodi:type="arc"
        id="path22618"
-       style="display:inline;opacity:0.98999999;fill:#45ff20;fill-opacity:1;stroke:#f70000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1">
+       style="display:inline;opacity:0.98999999;fill:#45ff20;fill-opacity:1;stroke:#f70000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
+       inkscape:transform-center-x="2.176077"
+       inkscape:transform-center-y="-24.592653">
       <desc
          id="desc22614">./test/no-image-supplied</desc>
       <title
          id="title22616">mark-page-1</title>
+    </path>
+    <path
+       inkscape:transform-center-y="-24.592653"
+       inkscape:transform-center-x="2.176077"
+       style="display:inline;opacity:0.98999999;fill:#45ff20;fill-opacity:1;stroke:#f70000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44881821;stroke-opacity:1"
+       id="path23295"
+       sodipodi:type="arc"
+       sodipodi:cx="0.00056830473"
+       sodipodi:cy="15.324739"
+       sodipodi:rx="4.2522321"
+       sodipodi:ry="4.2522321"
+       sodipodi:start="1.5935991"
+       sodipodi:end="1.5918851"
+       sodipodi:open="true"
+       d="M -0.09638598,19.575866 A 4.2522321,4.2522321 0 0 1 -4.2505995,15.229607 4.2522321,4.2522321 0 0 1 0.09387934,11.073531 4.2522321,4.2522321 0 0 1 4.251816,15.416229 4.2522321,4.2522321 0 0 1 -0.08909941,19.576026">
+      <desc
+         id="desc23291">./test/mark-page</desc>
+      <title
+         id="title23293">svg-mark-page</title>
     </path>
   </g>
   <g

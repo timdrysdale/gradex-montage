@@ -412,6 +412,17 @@ A ```spread``` is the subsection of the overall layout that we pass to the layou
 
 We've got a bunch of features in mind for data extraction, multimarker merging and so on. Watch this space. 
 
+
+Since this tool involves content, [keep the swiss army knife handy for git](https://dev.to/jenc/removing-accidentally-committed-files-from-remote-history-3acj)
+```
+git filter-branch --index-filter "git rm --cached -f -r --ignore-unmatch filenameOrFolderName" --tag-name-filter cat -- --all
+git update-ref -d refs/original/refs/heads/master
+git reflog expire --expire=now --all
+git gc --prune=now
+git push
+git log --all --pretty=format: --name-only --diff-filter=A | sort - | grep fubar
+```
+
 [anchor]: ./img/inkscape-anchor-alignment.png "circle on corner of page and snap settings bar"
 [compare-active-inactive]: ./img/compare-active-inactive-sidebar.png "green coloured active moderate bar and grey thin inactive moderate sidebar"
 [dynamic-layout]: ./img/dynamic-layout-60pc.png "screen showing three side bars and the layers dialong"

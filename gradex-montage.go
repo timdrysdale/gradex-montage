@@ -158,10 +158,6 @@ func doOneDoc(inputPath, spreadName string) (int, error) {
 
 	// gs starts indexing at 1
 
-	if numPages > 3 {
-		numPages = 3
-	}
-
 	prefillImagePaths := make(map[string]string)
 
 	for imgIdx := 1; imgIdx <= numPages; imgIdx = imgIdx + 1 {
@@ -179,6 +175,12 @@ func doOneDoc(inputPath, spreadName string) (int, error) {
 	svgLayoutPath := "./test/layout-312pt-three-page-scan-check.svg"
 	outputPath := fmt.Sprintf("%s-%s.pdf", basename, spreadName)
 
+	docTextPrefills := make(map[int]parsesvg.PagePrefills)
+
+	docTextPrefills[0] = make(parsesvg.PagePrefills)
+
+	docTextPrefills[0]["filename"] = inputPath
+
 	contents := parsesvg.SpreadContents{
 		SvgLayoutPath:     svgLayoutPath,
 		SpreadName:        spreadName,
@@ -187,6 +189,7 @@ func doOneDoc(inputPath, spreadName string) (int, error) {
 		PdfOutputPath:     outputPath,
 		Comments:          comments,
 		PrefillImagePaths: prefillImagePaths,
+		Prefills:          docTextPrefills,
 	}
 
 	err = parsesvg.RenderSpreadExtra(contents)
